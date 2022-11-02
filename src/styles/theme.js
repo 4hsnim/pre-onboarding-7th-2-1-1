@@ -6,9 +6,10 @@ const defaultTheme = {
   btnColor: {
     default: "#D9D9D9",
     filtered: "#000000",
+    accent: "#0094FF",
   },
   bgColor: {
-    default: "white",
+    default: "#FFFFFF",
     accent: "#0094FF",
   },
   borderColor: {
