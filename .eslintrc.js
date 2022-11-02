@@ -1,13 +1,13 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: ["plugin:react/recommended", "airbnb", "prettier"],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
-    sourceType: "module"
+    sourceType: "module",
   },
   plugins: ["react"],
   rules: {
@@ -15,7 +15,6 @@ module.exports = {
     "semi-spacing": ["error"],
     curly: ["error"],
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
-    "comma-dangle": ["error", "never"],
     "comma-spacing": ["error", { before: false, after: true }],
     "comma-style": ["error", "last"],
     "import/no-unresolved": ["error", { commonjs: true, amd: true }],
@@ -38,6 +37,6 @@ module.exports = {
     "react/jsx-props-no-spreading": "off",
     "react/no-children-prop": "off",
     "react/jsx-no-constructed-context-values": "off",
-    "react/destructuring-assignment": "off"
-  }
+    "react/destructuring-assignment": "off",
+  },
 };
